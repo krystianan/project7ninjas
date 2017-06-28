@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+* {
+  box-sizing: border-box; }
+
+.cinebuzz {
+  text-align: center; }
+
+.join {
+  font-size: 41px;
+  font-family: "JosefinSans";
+  color: #ec4461;
+  line-height: 1.39; }
+
+.cinebuzz_logo {
+  position: relative;
+  bottom: 5px; }
+
+.cinebuzz_logos, .program {
+  margin-top: 30px; }
+
+.btn {
+  margin-top: 30px;
+  width: 200px;
+  border-radius: 0px; }
+
+.select {
+  background-color: #fdcdcb;
+  height: 150px;
+  line-height: 150px; }
+
+h2 {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-family: "TitilliumWeb"; }
+
+.venue {
+  margin-top: 50px;
+  background-color: #f2f2f2; }
+
+div > img {
+  margin-top: 20px; }
+
+.venue [class*="col-"] {
+  height: 400px;
+  margin-top: 20px;
+  position: relative; }
+  .venue [class*="col-"]:nth-last-child(6) {
+    background-image: url(../images/adelaide.png);
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .venue [class*="col-"]:nth-last-child(5) {
+    background-image: url(../images/brisbane.png);
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .venue [class*="col-"]:nth-last-child(4) {
+    background-image: url(../images/melbourne.png);
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .venue [class*="col-"]:nth-last-child(3) {
+    background-image: url(../images/perth.png);
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .venue [class*="col-"]:nth-last-child(2) {
+    background-image: url(../images/portdouglas.png);
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .venue [class*="col-"]:nth-last-child(1) {
+    background-image: url(../images/sydney.png);
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.venue > .col-5 {
+  margin-left: 60px; }
+
+.content {
+  color: white;
+  position: absolute;
+  bottom: 0; }
+  .content > .btn {
+    transform: translateY(-30px);
+    width: 250px; }
+
+.content2 > h1, .content2 > p {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  text-align: center; }
+
+.content2 > img {
+  position: relative; }
+
+.content2 > .photo1 {
+  position: absolute;
+  left: 28%;
+  top: 1%;
+  z-index: 1; }
+
+.content2 > .photo3 {
+  position: absolute;
+  left: 30%;
+  z-index: 2; }
+
+.content2 > .photo2 {
+  position: absolute;
+  left: 42%;
+  z-index: 3; }
+
+.content2 > .btn {
+  position: absolute;
+  transform: translateY(-55px); }
+
+.content3 {
+  text-align: center;
+  color: white;
+  position: absolute;
+  left: 25%;
+  bottom: 0; }
+  .content3 > .btn {
+    transform: translateY(-30px);
+    width: 250px; }
+
+.ads {
+  background-color: #fdcdcb; }
+
+.advert {
+  height: 400px; }
+  .advert > img {
+    height: 70%;
+    width: 50%; }
+
+h3 {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-family: "TitilliumWeb";
+  color: white; }
+
+.headSponsors {
+  background-color: #8479b6;
+  height: 100px;
+  line-height: 100px; }
+
+.brands {
+  background-color: #625796;
+  height: 300px; }
+
+.line1 > img {
+  margin-top: 50px;
+  margin-right: 30px; }
+  .line1 > img:nth-last-child(13) {
+    margin-left: 10%; }
+
+h4 {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-family: "TitilliumWeb"; }
+
+.headFollow {
+  background-color: white;
+  height: 100px;
+  line-height: 100px; }
+
+.tableFollow {
+  background-color: #ffcfcd;
+  text-align: center; }
+
+.table {
+  text-align: center; }
+
+.icon {
+  display: inline-block;
+  padding: 5px; }
+
+.right {
+  position: relative;
+  float: right;
+  transform: translateY(150%); }
+
+.left {
+  position: relative;
+  float: left;
+  transform: translateY(150%); }
+
+.tableImage {
+  text-align: center; }
+
+.photos {
+  display: inline-block;
+  padding: 1%; }
+
+.tableFollow > .btn {
+  text-align: center;
+  margin-bottom: 15px; }
+
+.footer {
+  background-color: #f4adaa;
+  height: 100px;
+  line-height: 100px; }
+  .footer > h1 {
+    color: #b26562;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+    font-family: "TitilliumWeb"; }
+
+@media (max-width: 767px) {
+  .col-s-1 {
+    width: 8.33%; }
+  .col-s-2 {
+    width: 16.66%; }
+  .col-s-3 {
+    width: 25%; }
+  .col-s-4 {
+    width: 33.33%; }
+  .col-s-5 {
+    width: 41.66%; }
+  .col-s-6 {
+    width: 50%; }
+  .col-s-7 {
+    width: 58.33%; }
+  .col-s-8 {
+    width: 66.66%; }
+  .col-s-9 {
+    width: 75%; }
+  .col-s-10 {
+    width: 83.33%; }
+  .col-s-11 {
+    width: 91.66%; }
+  .col-s-12 {
+    width: 100%; }
+  .content2 {
+    display: none; }
+  .content3 {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+  .content > .btn {
+    font-size: 15px;
+    transform: translateX(-5px);
+    width: auto; }
+  .content3 > .btn {
+    font-size: 15px;
+    transform: translateY(0px);
+    width: auto; }
+  .left, .right {
+    display: none; } }
+
+@media (max-width: 992px) {
+  .col-s-1 {
+    width: 8.33%; }
+  .col-s-2 {
+    width: 16.66%; }
+  .col-s-3 {
+    width: 25%; }
+  .col-s-4 {
+    width: 33.33%; }
+  .col-s-5 {
+    width: 41.66%; }
+  .col-s-6 {
+    width: 50%; }
+  .col-s-7 {
+    width: 58.33%; }
+  .col-s-8 {
+    width: 66.66%; }
+  .col-s-9 {
+    width: 75%; }
+  .col-s-10 {
+    width: 83.33%; }
+  .col-s-11 {
+    width: 91.66%; }
+  .col-s-12 {
+    width: 100%; }
+  .content2 {
+    display: none; }
+  .content3 {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+  .content > .btn {
+    font-size: 15px;
+    transform: translateX(-5px);
+    width: auto; }
+  .content3 > .btn {
+    font-size: 15px;
+    transform: translateY(0px);
+    width: auto; }
+  .left, .right {
+    display: none; } }
